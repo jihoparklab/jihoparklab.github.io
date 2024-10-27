@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>맛별 추천</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #FFB74D;
+            padding: 1% 5%;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav a {
+            background-color: #FF9800;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            background-color: #F57C00;
+        }
+
+        section {
+            padding: 2% 10%;
+        }
+
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: 2% auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #FFCC80;
+            color: black;
+        }
+
+       
+        .category-row {
+            border-top: 3px solid #FF9800;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>맛별 추천 치킨</h1>
+    <h5>*2024년 10월 정보 기준</h5>
+    <nav>
+        <a href="index.html">메인 페이지</a>
+        <a href="brand.html">브랜드별 추천</a>
+    </nav>
+</header>
+
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2">맛</th>
+            <th colspan="2">추천 메뉴</th>
+            <th rowspan="2">설명</th>
+        </tr>
+        <tr>
+            <th>브랜드</th>
+            <th>메뉴</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- 후라이드 치킨 -->
+        <tr class="category-row">
+            <td rowspan="4">후라이드</td>
+            <td>BBQ</td>
+            <td>황금올리브</td>
+            <td>바삭한 식감과 고소한 풍미로 BBQ의 대표 후라이드 메뉴</td>
+        </tr>
+        <tr>
+            <td>BHC</td>
+            <td>해바라기 후라이드</td>
+            <td>깔끔한 맛과 바삭함을 자랑하는 기본 후라이드 치킨</td>
+        </tr>
+        <tr>
+            <td>네네치킨</td>
+            <td>오리지널 후라이드</td>
+            <td>촉촉하면서도 바삭한 후라이드로 인기 있는 메뉴</td>
+        </tr>
+        <tr>
+            <td>교촌치킨</td>
+            <td>리얼 후라이드</td>
+            <td>담백하고 기름지지 않아 많은 사랑을 받는 후라이드</td>
+        </tr>
+
+        <!-- 양념 치킨 -->
+        <tr class="category-row">
+            <td rowspan="4">양념</td>
+            <td>처갓집</td>
+            <td>슈프림 양념치킨</td>
+            <td>달콤하고 매콤한 양념으로 부드러운 식감을 자랑</td>
+        </tr>
+        <tr>
+            <td>교촌치킨</td>
+            <td>레드콤보</td>
+            <td>매콤한 양념이 특징으로 중독성 있는 맛을 자랑</td>
+        </tr>
+        <tr>
+            <td>BHC</td>
+            <td>맛초킹</td>
+            <td>짭조름한 양념과 바삭한 식감이 어우러진 인기 치킨</td>
+        </tr>
+        <tr>
+            <td>페리카나</td>
+            <td>양념치킨</td>
+            <td>신선한 20여가지 재료들이 잘 조화된 매콤달콤한 페리카나의 대표 치킨</td>
+        </tr>
+
+        <!-- 시즈닝 치킨 -->
+        <tr class="category-row">
+            <td rowspan="4">시즈닝</td>
+            <td>BHC</td>
+            <td>뿌링클</td>
+            <td>달콤한 시즈닝과 바삭함이 조화를 이루는 대표 메뉴</td>
+        </tr>
+        <tr>
+            <td>네네치킨</td>
+            <td>스노윙 치킨</td>
+            <td>부드럽고 달콤한 치즈 시즈닝이 뿌려져 있어 아이들에게 인기</td>
+        </tr>
+        <tr>
+            <td>교촌치킨</td>
+            <td>허니콤보</td>
+            <td>달콤한 허니 소스와 바삭함이 어우러져 단짠의 매력을 자랑</td>
+        </tr>
+        <tr>
+            <td>푸라닭</td>
+            <td>블랙 알리오</td>
+            <td>특유의 알리오 시즈닝으로 고급스러운 감칠맛을 더해줌</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
